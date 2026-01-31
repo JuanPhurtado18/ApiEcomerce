@@ -5,9 +5,6 @@ Aplicación web tipo ecommerce desarrollada con **React + Vite**, que consume un
 🚀 **Demo**
 👉 https://api-ecomerce-iota.vercel.app/
 
-📦 **Repositorio**
-👉 https://github.com/JuanPhurtado18/ApiEcomerce
-
 ---
 
 ## 🧠 Descripción del proyecto

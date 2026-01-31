@@ -1,17 +1,55 @@
-# React + Vite
+# 🛒 API Ecommerce App
 
-Trabajo realizado con react + Vite.
+Aplicación web tipo ecommerce desarrollada con **React + Vite**, que consume una API pública para mostrar productos, incluye autenticación básica con `localStorage`, búsqueda de productos y visualización de detalles mediante modales.
 
-Para poder iniciar este proyecto debes realizar el siguiente paso:
+🚀 **Demo**
+👉 https://api-ecomerce-iota.vercel.app/
 
--npm run dev
+📦 **Repositorio**
+👉 https://github.com/JuanPhurtado18/ApiEcomerce
 
+---
 
+## 🧠 Descripción del proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto simula el flujo básico de un ecommerce, permitiendo a los usuarios registrarse, iniciar sesión y acceder a un listado de productos obtenidos desde una API externa.
 
-Currently, two official plugins are available:
+El enfoque principal fue practicar el desarrollo frontend con React, el manejo de estado, la navegación entre vistas y el consumo de APIs REST.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# ApiEcomerce" 
+---
+
+## ✨ Funcionalidades
+
+- 🔐 **Registro e inicio de sesión**
+  - Validación de campos
+  - Persistencia de usuarios mediante `localStorage`
+  - Alertas visuales con SweetAlert2
+
+- 🛍️ **Listado de productos**
+  - Consumo de datos desde `https://fakestoreapi.com/products`
+  - Renderizado dinámico de productos
+
+- 🔎 **Búsqueda de productos**
+  - Filtrado en tiempo real por ID
+
+- 📦 **Modal de detalles**
+  - Visualización de descripción y categoría del producto
+  - Modal reutilizable como componente
+
+- 🔀 **Navegación entre vistas**
+  - Implementación de rutas con React Router DOM
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- React 18
+- Vite
+- JavaScript (ES6+)
+- React Router DOM
+- Bootstrap 5
+- SweetAlert2
+- CSS
+- LocalStorage
+- Git & GitHub
+- Vercel
